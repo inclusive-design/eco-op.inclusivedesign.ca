@@ -1,0 +1,152 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #0A1E20;
+}
+
+a:link {
+    color: #0A1E20;
+    font-weight: 600;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+nav a:visited {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+nav {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-bottom: 10em;
+    background-color: rgb(24, 64, 68);
+    background-image: url(/images/banner.svg);
+    background-size: 100%;
+    color: #fff;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav .lang {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    font-size: 100%;
+    padding: 0em;
+    margin: 0;
+}
+
+nav .lang li {
+    color: #000;
+    background-color: #fff;
+    margin-right: 6%;
+    margin-top: 4%;
+    padding: 0.5em;
+}
+
+nav h1 {
+    font-size: 900%;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+nav ol {
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+    list-style-type: none;
+}
+
+nav ol li {
+    margin: 0em 1em 0em 0em;
+    padding: 0.5em;
+    background-color: rgba(10, 49, 58, 0.3);
+}
+
+main {
+    font-size: 150%;
+    line-height: 150%;
+    background-size: 100%;
+}
+
+main h2 {
+    margin-top: 2em;
+}
+
+main a:link {
+    text-decoration: underline;
+}
+
+main p em {
+    font-weight: 700;
+    font-style: normal;
+}
+
+section .text-block {
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+
+section.about .text-block {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+section.about .text-block p {
+    padding-left: 5em;
+    width: 50%;
+}
+
+section.about .text-block img {
+    margin-top: 1.5em;
+    width: 10%;
+    height: 10%;
+}
+
+section.pdc-workshop h2 {
+    display: inline;
+}
+
+section.pdc-workshop .text-block img {
+    margin-left: 0.75em;
+    margin-bottom: -0.5em;
+    width: 5%;
+    height: 5%;
+}
+
+section.pdc-workshop {
+    background-color: #EEF0E8;
+}
+
+section.get-involved {
+    text-align: center;
+}
+
+footer {
+    background-color: #133336;
+    color: #fff;
+    font-size: 150%;
+}
