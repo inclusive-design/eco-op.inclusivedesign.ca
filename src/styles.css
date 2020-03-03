@@ -126,18 +126,18 @@ section.about .text-block img {
     height: 10%;
 }
 
-section.pdc-workshop h2 {
+section.workshop h2 {
     display: inline;
 }
 
-section.pdc-workshop .text-block img {
+section.workshop .text-block img {
     margin-left: 0.75em;
     margin-bottom: -0.5em;
     width: 5%;
     height: 5%;
 }
 
-section.pdc-workshop {
+section.workshop {
     background-color: #EEF0E8;
 }
 

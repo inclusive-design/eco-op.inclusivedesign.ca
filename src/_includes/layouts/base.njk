@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+    <head>
+        <meta charset="UTF-8" />
+        <title>eco-op</title>
+        <link href="/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <ol class="lang">
+                {% for locale in site.locales -%}
+                <li><a href="/{{ '' if locale == 'en' else locale }}">{{ locale }}</a></li>
+                {%- endfor %}
+            </ol>
+            <h1>eco-op</h1>
+            <ol class="nav"></ol>
+        </nav>
+        <main>
+            {{ content | safe }}
+        </main>
+    </body>
+</html>

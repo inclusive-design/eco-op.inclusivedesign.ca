@@ -1,0 +1,27 @@
+{
+  "name": "eco-op",
+  "version": "1.0.0",
+  "description": "This repository contains the source for the eco-op website.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "rimraf dist && eleventy",
+    "start": "rimraf dist && eleventy start --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inclusive-design/eco-op.inclusivedesign.ca.git"
+  },
+  "author": "OCAD University",
+  "bugs": {
+    "url": "https://github.com/inclusive-design/eco-op.inclusivedesign.ca/issues"
+  },
+  "homepage": "https://github.com/inclusive-design/eco-op.inclusivedesign.ca#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@tbranyen/jsdom": "^13.0.0",
+    "html-minifier": "^4.0.0",
+    "rimraf": "^3.0.2",
+    "slugify": "^1.4.0"
+  }
+}
