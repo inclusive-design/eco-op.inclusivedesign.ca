@@ -55,11 +55,15 @@ nav .lang {
 }
 
 nav .lang li {
-    color: #000;
+    text-transform: uppercase;
     background-color: #fff;
     margin-right: 6%;
     margin-top: 4%;
     padding: 0.5em;
+}
+
+nav .lang li a {
+    color: #000;
 }
 
 nav h1 {
