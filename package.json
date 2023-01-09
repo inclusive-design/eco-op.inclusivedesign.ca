@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/inclusive-design/eco-op.inclusivedesign.ca#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^1.0.2",
     "@tbranyen/jsdom": "^13.0.0",
     "html-minifier": "^4.0.0",
     "rimraf": "^3.0.2",
